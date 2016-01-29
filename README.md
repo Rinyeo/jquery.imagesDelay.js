@@ -38,3 +38,6 @@ $(function() {
 	});
 ```
 注意：传参时不需要带上px，数字类型即可。
+
+###demo演示
+[Demo显示地址](http://rinhome.com/demo/imageDelay/)
