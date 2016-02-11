@@ -1,6 +1,6 @@
-# jquery.imagesDelay.js
+# imagesDelay.js
 ###介绍
-jquery.imagesDelay.js是一款基于jQuery的轻量级图片延迟加载插件。
+imagesDelay.js是一款基于jQuery的轻量级图片延迟加载插件。
 
 ###开发背景
 在项目中目前比较常使用图片延迟加载的功能，为此把代码封装成了jQuery插件，方便以后的使用。
