@@ -6,7 +6,7 @@
 	$.fn.imagesDelay = function(distance) {
 
 		// 获取所有img对象
-		var $images = $(this).find('img');
+		var $images = $(this);
 
 		// 获取视口的高度
 		var $H = $(window).height();

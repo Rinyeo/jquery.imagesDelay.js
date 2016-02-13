@@ -18,12 +18,13 @@ imagesDelay.js是一款基于jQuery的轻量级图片延迟加载插件。
 
 ```javascript
 $(function() {
-		$('.main').imagesDelay();
+		$('.main img').imagesDelay();
 	});
 ```
-HTML中`class="mian"`下的子节点img会被延迟加载，同时延迟加载的img应该符合以下规则：
+HTML中`class="mian"`下的子节点img会被延迟加载，如果想选取部分img，请使用筛选或者给img添加class。同时延迟加载的img应该符合以下规则：
 1.页面初始化时，`data-src`属性为延迟加载的最终图片。
 2.页面初始化时，`src`属性为延迟加载默认的图片。
+
 ```html
 <div><img data-src="delay.jpg" src="defualt.jpg" width="100%"></div>
 ```
